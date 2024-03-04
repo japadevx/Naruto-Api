@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    color: white;
+    height: 70px;
+    width: 100%;
+    padding: 20px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    z-index: 3;
+
+}
+header.scroll{
+    background-color: black;
+    padding: 10px 4%;
+}
